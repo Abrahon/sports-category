@@ -17,13 +17,13 @@ import 'swiper/css/scrollbar';
 
 const Collection = () => {
     return (
-        <section className='container my-20 '>
+        <section className='container mx-auto my-20 w-[1080px]'>
             <div className='text-center my-20'>
                 <h1 className='text-2xl font-bold mb-2'>Collection Spotlight</h1>
                 <p>Discover extraordinary moments with our Spotlight Collection metatickets—exclusive access to premium events for an unforgettable experience. Grab yours today!</p>
             </div>
 
-            <Swiper className='px-10 w-[1000px] '
+            <Swiper className='px-10 '
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={20}
                 slidesPerView={3}

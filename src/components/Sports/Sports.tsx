@@ -17,7 +17,7 @@ const Sports = () => {
         <>
             <section className='container my-10'>
                 <div className='flex justify-between '>
-                    <div className=' border-b-2 border-[#738FFF]'>
+                    <div className='border-b-2 border-[#738FFF]'>
                         <h1 className='font-semibold'>Sports</h1>
                     </div>
                     {theme === "dark" ? (
@@ -27,10 +27,10 @@ const Sports = () => {
                     )}
                 </div>
 
-                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 w-full my-10'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 w-full my-10'>
 
                     <div className='shadow-xl p-2'>
-                        <Image className='h-[386px]' src={img1} alt='' ></Image>
+                        <Image className='h-[386px]' src={img1} alt='player' ></Image>
                         <div className='my-4'>
                             <h1 className='font-medium mb-4'>Sacramento River Cats</h1>
                             <div className='flex justify-start px-2 gap-4'>
@@ -47,7 +47,7 @@ const Sports = () => {
                         </div>
                     </div>
                     <div className='shadow-xl p-2'>
-                        <Image className='h-[386px]' src={img2} alt=""></Image>
+                        <Image className='h-[386px]' src={img2} alt="player"></Image>
                         <div className='my-4'>
                             <h1 className='font-medium mb-4'>Las Vegas Aviators</h1>
                             <div className='flex justify-start px-2 gap-4'>
@@ -65,7 +65,7 @@ const Sports = () => {
                     </div>
 
                     <div className='shadow-xl p-2'>
-                        <Image className='h-[386px]' src={img3} alt="" ></Image>
+                        <Image className='h-[386px]' src={img3} alt="player" ></Image>
                         <div className='my-4'>
                             <h1 className='font-medium mb-4'>new jersey devils</h1>
                             <div className='flex justify-start px-2 gap-4'>
@@ -82,8 +82,8 @@ const Sports = () => {
                         </div>
 
                     </div>
-                    <div className='shadow-xl'>
-                        <Image className='h-[386px]' src={img2} alt="" ></Image>
+                    <div className='shadow-xl p-2'>
+                        <Image className='h-[386px]' src={img2} alt="player" ></Image>
                         <div className='my-4'>
                             <h1 className='font-medium mb-4'>Las Vegas Aviators</h1>
                             <div className='flex justify-start px-2 gap-4'>
@@ -99,7 +99,7 @@ const Sports = () => {
                         </div>
                     </div>
                     <div className='shadow-xl p-2'>
-                        <Image className='h-[218px]' src={img8} alt="" width={218} height={218}></Image>
+                        <Image className='h-[218px]' src={img8} alt="logo" width={218} height={218}></Image>
                         <div className='my-4'>
                             <h1 className='font-medium mb-4'>Advertisement title</h1>
                             <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aliquid eum corrupti maiores quibusdam velit! Soluta, consectetur, eius eveniet ad ullam inventore unde asperiores natus ducimus exercitationem odio? Reiciendis, iusto!</p>
